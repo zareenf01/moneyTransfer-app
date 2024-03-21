@@ -1,8 +1,10 @@
 const mongoose = require("mongoose");
+const { MONGO_CONNECT } = require("./config");
 
-mongoose.connect(
-  "mongodb+srv://zareen:rSxHRKWi2nHmFjBR@cluster0.8nqh3hc.mongodb.net/paytm"
-);
+mongoose.connect(MONGO_CONNECT, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const userSchema = new mongoose.Schema({
   email: {
