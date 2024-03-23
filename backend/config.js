@@ -1,6 +1,6 @@
-const JWT_SECRET = "zareenshh";
+const JWT_SECRET = "Your jwt secret";
 const MONGO_CONNECT =
-  "mongodb+srv://zareen:rSxHRKWi2nHmFjBR@cluster0.8nqh3hc.mongodb.net/paytm";
+  "your connection URL";
 
 module.exports = {
   JWT_SECRET,
