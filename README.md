@@ -2,6 +2,7 @@
 Money Transfer MERN stack app with authentication, it is a full-fledged web app designed for transactions and user accounts. It includes authentication features using Zod for data validation, JWT for secure user authentication, and React Tailwind for styling the frontend components.
 
 ## Table of Contents
+* [Built With](#built-with)
 * [Features](#features)
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
@@ -12,6 +13,15 @@ Money Transfer MERN stack app with authentication, it is a full-fledged web app 
 * Secure endpoints using JWT middleware for authorization.
 * Money transfer between user accounts with transaction handling.
 * User profile update functionality.
+
+## Built With
+* [Node.js](https://nodejs.org/)
+* [Express.js](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [React.js](https://reactjs.org/)
+* [JWT](https://jwt.io/)
+* [Zod](https://github.com/colinhacks/zod)
+* [Tailwind CSS](https://tailwindcss.com/)
 
 ## Prerequisites
 * Node.js and npm installed on your machine.
