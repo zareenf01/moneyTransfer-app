@@ -44,6 +44,9 @@ Money Transfer MERN stack app with authentication, it is a full-fledged web app 
    ```
    npm start
    ```
+   
+Frontend
+
 6. Navigate to the frontend folder:
    ```
    cd frontend
